@@ -20,6 +20,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="signupModalLabel">Create Account</h5>
+                <!-- Close Button -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -29,7 +30,8 @@
                     <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="email" placeholder="Enter email" required>
-                        </div>
+                        <div class="form-text">Your information is safe with us.</div>
+                    </div>
                     <!-- Password Input -->
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
@@ -40,9 +42,11 @@
                         <label for="confirmPassword" class="form-label">Confirm Password</label>
                         <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password" required>
                     </div>
-                    <!-- Submit Button -->
-                    <button type="submit" class="btn btn-success">Submit</button>
                 </form>
+            </div>
+            <div class="modal-footer">
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-success">Submit</button>
             </div>
         </div>
     </div>
